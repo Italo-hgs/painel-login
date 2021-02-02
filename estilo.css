@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.box-login{
+    width: 500px;
+    height: 500px;
+    background-color: #04345C;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 15px 15px black;
+}
+
+.box-login .capa{
+    height: 230px;
+    background: url('../imagens/teste.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    border-radius: 10px 10px 0 0;
+}
+
+h1{
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+    margin: 15px 0 20px 20px;
+    font-weight: 500;
+}
+
+form input{
+    margin: 0px 20px;
+    margin-bottom: 15px;
+    width: calc(100% - 40px);
+    padding: 15px 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 15px;
+    color: #6d4bfc;
+}
+
+form .btn-login{
+    padding: 15px;
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    background: #3ceb88;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.msg-error{
+    color: #ff6d6d;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
